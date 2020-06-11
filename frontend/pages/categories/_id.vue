@@ -7,6 +7,8 @@
         <h1>{{ category.name }}</h1>
 
         <Articles :articles="category.articles || []"></Articles>
+        <h2>test</h2>
+        <Articles :articles="articles"></Articles>
 
       </div>
     </div>

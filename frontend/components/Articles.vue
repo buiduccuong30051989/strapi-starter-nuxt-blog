@@ -10,7 +10,7 @@
         >
           <div class="uk-card uk-card-muted">
             <div class="uk-card-media-top">
-              <img :src="api_url + article.image.url" alt="" height="100" />
+              <img :src="article.image.url" alt="" height="100" />
             </div>
             <div class="uk-card-body">
               <p
@@ -35,7 +35,7 @@
           >
             <div class="uk-card uk-card-muted">
               <div class="uk-card-media-top">
-                <img :src="api_url + article.image.url" alt="" height="100" />
+                <img :src="article.image.url" alt="" height="100" />
               </div>
               <div class="uk-card-body">
                 <p
