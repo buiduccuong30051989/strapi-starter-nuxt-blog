@@ -4,7 +4,7 @@ export default {
    ** Headers of the page
    */
   env: {
-    strapiBaseUri: "https://ngoc-strapi.herokuapp.com/"
+    strapiBaseUri: "https://ngoc-strapi.herokuapp.com"
   },
 
   head: {
@@ -59,7 +59,7 @@ export default {
   apollo: {
     clientConfigs: {
       default: {
-        httpEndpoint: "https://ngoc-strapi.herokuapp.com/" + "/graphql"
+        httpEndpoint: "https://ngoc-strapi.herokuapp.com" + "/graphql"
       }
     }
   },
